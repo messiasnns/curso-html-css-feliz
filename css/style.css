@@ -3,15 +3,15 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #0068ff;
-    border-bottom: 10px solid #1e212b;
+    border-bottom: 10px solid #000;
     padding: 10px 20px;
 }
 
-h1 {
+#logo {
     font-family: "Press Start 2P", sans-serif;
     font-size: 32px;
     color: white;
-    text-shadow: 5px 5px 0px #1e212b
+    text-shadow: 5px 5px 0px #000;
 }
 
 nav {
@@ -39,9 +39,9 @@ a::before {
 
 #button {
     display: inline-block;
-    color: #1e212b;
+    color: #000;
     background-color: #00ff91;
-    box-shadow: 5px 5px 0px #1e212b;
+    box-shadow: 5px 5px 0px #000;
     padding: 18px 20px;
     margin-right: 0;
     transition: transform 100ms linear;
